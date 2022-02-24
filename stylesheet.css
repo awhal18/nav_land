@@ -12,14 +12,29 @@
 @media (min-width:800px){
     .header{
         height:100px;
-        width:820px;
+        width:2000px;
     }
 }
-@media (min-width:1000px){
+@media (min-width:1200px){
     .header{
         height:100px;
         width:1520px;
     }
+}
+@media (min-width:1500px){
+    .header{
+        height:85px;
+        width:2000px;
+    }
+}
+
+.header_ul{
+    list-style-type:none;
+    display:flex;
+    flex: 1 20px;
+    margin-top:30px;
+    padding: 0 0 0 0;
+    margin-left:36px;
 }
 
 /* HEADER BAR FORMATTING END*/
@@ -38,17 +53,19 @@
 @media (min-width:1200px){
     .header_logo{
         height:80px;
-        width:90px;
+        width:70px;
+        margin-left:10px;
+        margin-top:5px;
     }
 }
 @media (min-width:1500px){
     .header_logo{
-        height:85px;
-        width:80px;
+        height:75px;
+        width:70px;
     }
 }
 /*LOGO FORMATTING END*/
-/*NAV BAR FORMATTING*/
+/*NAV BAR FORMATTING-A*/
 a{
     color:white;
     padding: 2px;
@@ -64,26 +81,59 @@ a:hover{
 }
 @media (min-width:800px){
     a{
-        height:100px;
-        width:90px;
+        color:white;
+        padding: 2px;
+        margin-left:60px;
+        font-size:25px;
+        padding:20 0 20 20px;
+        text-decoration:none;
     }
 }
 @media (min-width:1200px){
     a{
-        height:80px;
-        width:90px;
+        color:white;
+        padding: 2px;
+        margin-left:48px;
+        position:relative;
+        font-size:20px;
+        padding:0 0 0 0px;
+        text-decoration:none;
     }
 }
 @media (min-width:1500px){
     a{
-        height:85px;
-        width:80px;
+        color:white;
+        padding: 2px;
+        margin-left:48px;
+        position:relative;
+        font-size:20px;
+        padding:0 0 0 0px;
+        text-decoration:none;
     }
 }
+/*NAV BAR FORMATTING*/
+/*NAV BAR FORMATTING-LI*/
+li{
 
-
-
-
+}
+@media (min-width:800px){
+    li{
+        
+    }
+}
+@media (min-width:1200px){
+    li{
+        margin-top:10px;
+        
+    }
+}
+@media (min-width:1500px){
+    li{
+        margin-top:-1px;
+    }
+}
+/*NAV BAR FORMATTING-LI END*/
+/*CONTACT ME BUTTON FORMATTING-LI*/
 .header_button{
     background-color:rgb(14, 13, 13);
     margin-left:15px;
@@ -97,11 +147,86 @@ a:hover{
 .header_button:hover{
     background-color:rgb(209, 47, 168);
 }
-.header_ul{
-    list-style-type:none;
-    display:flex;
-    flex: 1 20px;
-    margin-top:30px;
-    padding: 0 0 0 0;
-    margin-left:36px;
+@media (min-width:800px){
+    .header_button{
+        margin-left:100px;
+        margin-top:25px;
+        padding: 10 20 10 20;
+        font-size:20px;
+    }
+}
+@media (min-width:1200px){
+    .header_button{
+        margin-left:720px;
+        margin-top:35px;
+        padding: 5 10 5 10;
+        font-size:20px;
+    }
+}
+@media (min-width:1300px){
+    .header_button{
+        margin-left:620px;
+        margin-top:35px;
+        padding: 5 10 5 10;
+        font-size:20px;
+        margin-right:100px;
+    }
+}
+@media (min-width:1500px){
+    .header_button{
+        margin-left:1300px;
+        margin-top:25px;
+        padding: 5 5 5 5;
+        margin-right:100px;
+    }
+}
+/*CONTACT ME BUTTON FORMATTING-LI END*/
+/* LANDING PAGE LOGO CUSTOMIZATION*/
+.landing_img{
+    height:500px;
+    margin-top:50px;
+    margin-left:-40px;
+    width:450px;
+}
+@media (min-width:800px){
+    .landing_img{
+        height:700px;
+        margin-top:50px;
+        margin-left:60px;
+        width:650px;
+    }
+}
+@media (min-width:1200px){
+    .landing_img{
+        height:600px;
+        margin-left:400px;
+        width:550px;
+        margin-top:90px;
+    }
+}
+@media (min-width:1500px){
+    .landing_img{
+        height:600px;
+        margin-top:50px;
+        margin-left:450px;
+        width:550px;
+    }
+}
+
+
+h1{
+    color:pink;
+    margin-top:90px;
+}
+h2{
+    color:pink;
+    margin-top:90px;
+}
+h3{
+    color:pink;
+    margin-top:90px;
+}
+h4{
+    color:pink;
+    margin-top:90px;
 }
