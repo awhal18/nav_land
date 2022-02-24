@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Open+Sans+Condensed:wght@300&display=swap');
+/* Font-family: 'Dancing Sript', cursive; */
+/* Font-family: 'Open Sans Condensed', sans-serif;
+
 /* HEADER BAR FORMATTING */
 .header{
     background-color:rgb(0, 0, 0);
@@ -201,10 +206,18 @@ li{
 }
 @media (min-width:800px){
     .landing_img{
-        height:700px;
-        margin-top:50px;
+        height:800px;
+        margin-top:60px;
         margin-left:60px;
         width:650px;
+    }
+}
+@media (min-width:1100px){
+    .landing_img{
+        height:600px;
+        margin-left:400px;
+        width:550px;
+        margin-top:00px;
     }
 }
 @media (min-width:1200px){
@@ -212,30 +225,101 @@ li{
         height:600px;
         margin-left:400px;
         width:550px;
-        margin-top:300px;
+        padding: 50 0 0 0;
     }
 }
 @media (min-width:1500px){
     .landing_img{
         height:600px;
-        margin-top:50px;
-        margin-left:450px;
+        margin-top:0px;
+        margin-left:650px;
         width:550px;
     }
 }
-
-
+/* LANDING PAGE LOGO CUSTOMIZATION END*/
+/* LANDING PAGE H1 CUSTOMIZATION*/
 h1{
-    color:pink;
-    margin-top:90px;
+    color:rgb(15, 15, 15);
+    margin-top:190px;
+    font-family: 'Dancing Script', cursive, Courier, monospace;
+    font-size:50px;
+    margin-left:70px;
 }
+h1:hover{
+    text-shadow: 1px 1px 2px white, 0 0 1em pink, 0 0 0.2em white;
+
+}
+@media (min-width:800px){
+    h1{
+        color:rgb(15, 15, 15);
+        margin-top:170px;
+        font-family: 'Dancing Script', cursive, Courier, monospace;
+        font-size:70px;
+        margin-left:210px;
+    }
+}
+@media (min-width:1200px){
+    h1{
+        color:rgb(15, 15, 15);
+        margin-top:10px;
+        font-family: 'Dancing Script', cursive, Courier, monospace;
+        font-size:50px;
+        margin-left:550px;
+    }
+}
+@media (min-width:1500px){
+    h1{
+        color:rgb(15, 15, 15);
+        margin-top:140px;
+        font-family: 'Dancing Script', cursive, Courier, monospace;
+        font-size:50px;
+        margin-left:820px;
+    }
+}
+/* LANDING PAGE H1 CUSTOMIZATION END*/
+/* LANDING PAGE H2 CUSTOMIZATION*/
 h2{
-    color:pink;
-    margin-top:90px;
+    color:rgb(15, 15, 15);
+    margin-top:-50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:25px;
+    margin-left:120px;
+    text-decoration:underline;
 }
+@media (min-width:800px){
+    h2{
+        color:rgb(15, 15, 15);
+        margin-top:-80px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size:35px;
+        margin-left:300px;
+    }
+}
+@media (min-width:1200px){
+    h2{
+        color:rgb(15, 15, 15);
+        margin-top:-50px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size:25px;
+        margin-left:620px;
+    }
+}
+@media (min-width:1500px){
+    h2{
+        color:rgb(15, 15, 15);
+        margin-top:-50px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size:25px;
+        margin-left:890px;
+    }
+}
+/* LANDING PAGE H2 CUSTOMIZATION*/
 h3{
-    color:pink;
-    margin-top:90px;
+    color:rgb(15, 15, 15);
+    margin-top:-20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:15px;
+    margin-left:110px;
 }
 h4{
     color:pink;
