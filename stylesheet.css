@@ -36,6 +36,9 @@
     padding: 0 0 0 0;
     margin-left:36px;
 }
+.content_customization{
+    background-color:rgb(255, 253, 253);
+}
 
 /* HEADER BAR FORMATTING END*/
 /*LOGO FORMATTING*/
@@ -147,6 +150,14 @@ li{
 .header_button:hover{
     background-color:rgb(209, 47, 168);
 }
+@media (min-width:600px){
+    .header_button{
+        margin-left:30px;
+        margin-top:25px;
+        padding: 10 20 10 20;
+        font-size:20px;
+    }
+}
 @media (min-width:800px){
     .header_button{
         margin-left:100px;
@@ -155,7 +166,7 @@ li{
         font-size:20px;
     }
 }
-@media (min-width:1200px){
+@media (min-width:1100px){
     .header_button{
         margin-left:720px;
         margin-top:35px;
@@ -201,7 +212,7 @@ li{
         height:600px;
         margin-left:400px;
         width:550px;
-        margin-top:90px;
+        margin-top:300px;
     }
 }
 @media (min-width:1500px){
