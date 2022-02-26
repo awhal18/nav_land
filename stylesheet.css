@@ -1,329 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Open+Sans+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Open+Sans+Condensed:wght@300&display=swap');
-/* Font-family: 'Dancing Sript', cursive; */
-/* Font-family: 'Open Sans Condensed', sans-serif;
-/* HEADER BAR FORMATTING */
 .header{
-    background-color:rgb(0, 0, 0);
-    height:75px;
-    width:420px;
-    position:absolute;
-    margin-left:-10px;
-    margin-top:-10px;
-    display:flex;
-    position:fixed;
+    width:106%;
+    height:12%;
+    margin-left:-3%;
+    margin-top:-3%;
+    background-color:black;
 }
-@media (min-width:800px){
-    .header{
-        height:100px;
-        width:2000px;
-    }
-}
-@media (min-width:1200px){
-    .header{
-        height:100px;
-        width:1520px;
-    }
-}
-@media (min-width:1500px){
-    .header{
-        height:85px;
-        width:2000px;
-    }
-}
-
-ul{
-    list-style-type:none;
-    display:flex;
-    flex: 1 20px;
-    margin-top:30px;
-    padding: 0 0 0 0;
-    margin-left:36px;
-}
-.content_customization{
-    background-color:rgb(255, 253, 253);
-}
-
-/* HEADER BAR FORMATTING END*/
-/*LOGO FORMATTING*/
 .header_logo{
-    height:75px;
-    width: 70px;
-    position:absolute;
-    margin-left:-10px;
+    width:8%;
+    height:60%;
+    margin-top:5%;
+    margin-left:3%;
 }
-@media (min-width:800px){
-    .header_logo{
-        height:100px;
-        width:90px;
-    }
+.header_nav{
+
 }
-@media (min-width:1200px){
-    .header_logo{
-        height:80px;
-        width:70px;
-        margin-left:10px;
-        margin-top:5px;
-    }
+.header_ul{
+    margin-top:-8%;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+    width:40%;
 }
-@media (min-width:1500px){
-    .header_logo{
-        height:75px;
-        width:70px;
-    }
-}
-/*LOGO FORMATTING END*/
-/*NAV BAR FORMATTING-A*/
-a{
-    color:white;
-    padding: 2px;
-    margin-left:18px;
-    position:relative;
-    font-size:15px;
-    padding:0 0 0 0px;
-    text-decoration:none;
-}
-a:hover{
-    background-color:rgb(209, 47, 168);
-    border-radius:10px;
-}
-@media (min-width:800px){
-    a{
-        color:white;
-        padding: 2px;
-        margin-left:50px;
-        font-size:25px;
-        padding:20 0 20 20px;
-        text-decoration:none;
-    }
-}
-@media (min-width:1200px){
-    a{
-        color:white;
-        padding: 2px;
-        margin-left:48px;
-        position:relative;
-        font-size:20px;
-        padding:0 0 0 0px;
-        text-decoration:none;
-    }
-}
-@media (min-width:1500px){
-    a{
-        color:white;
-        padding: 2px;
-        margin-left:48px;
-        position:relative;
-        font-size:20px;
-        padding:0 0 0 0px;
-        text-decoration:none;
-    }
-}
-/*NAV BAR FORMATTING*/
-/*NAV BAR FORMATTING-LI*/
 li{
-
+    display:inline;
+    margin-top:-5%;
 }
-@media (min-width:800px){
-    li{
-    }
-}
-@media (min-width:1200px){
-    li{
-        margin-top:10px;
-        
-    }
-}
-@media (min-width:1500px){
-    li{
-        margin-top:-1px;
-    }
-}
-/*NAV BAR FORMATTING-LI END*/
-/*CONTACT ME BUTTON FORMATTING-LI*/
-.header_button{
-    background-color:rgb(14, 13, 13);
-    margin-left:15px;
-    margin-top:28px;
-    border:2px solid white;
-    border-radius: 10px;
+a{
+    color:rgb(235, 235, 235);
+    font-size: 100%;
     text-decoration:none;
-    padding: 3 3 3 3px;
-    color:white;
+    padding:5;
+}
+.header_button{
+    margin-top:-13%;
+    margin-left:63%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border:2px solid pink;
+    border-radius:5%;
+    background-color:pink;
+    color:rgb(252, 252, 252);
     position:relative;
-}
-.header_button:hover{
-    background-color:rgb(209, 47, 168);
-}
-@media (min-width:600px){
-    .header_button{
-        margin-left:30px;
-        margin-top:25px;
-        padding: 10 20 10 20;
-        font-size:20px;
-        position:relative;
-    }
-}
-@media (min-width:800px){
-    .header_button{
-        margin-left:100px;
-        margin-top:25px;
-        padding: 10 20 10 20;
-        font-size:20px;
-        position:relative;
-    }
-}
-@media (min-width:1100px){
-    .header_button{
-        margin-left:720px;
-        margin-top:35px;
-        padding: 5 10 5 10;
-        font-size:20px;
-    }
-}
-@media (min-width:1300px){
-    .header_button{
-        margin-left:620px;
-        margin-top:35px;
-        padding: 5 10 5 10;
-        font-size:20px;
-        margin-right:100px;
-    }
-}
-@media (min-width:1500px){
-    .header_button{
-        margin-left:1300px;
-        margin-top:25px;
-        padding: 5 5 5 5;
-        margin-right:100px;
-    }
-}
-/*CONTACT ME BUTTON FORMATTING-LI END*/
-/* LANDING PAGE LOGO CUSTOMIZATION*/
-.landing_img{
-    height:500px;
-    margin-top:50px;
-    margin-left:-40px;
-    width:450px;
-}
-@media (min-width:800px){
-    .landing_img{
-        height:800px;
-        margin-top:60px;
-        margin-left:60px;
-        width:650px;
-    }
-}
-@media (min-width:1100px){
-    .landing_img{
-        height:600px;
-        margin-left:400px;
-        width:550px;
-        margin-top:00px;
-    }
-}
-@media (min-width:1200px){
-    .landing_img{
-        height:600px;
-        margin-left:400px;
-        width:550px;
-        padding: 50 0 0 0;
-    }
-}
-@media (min-width:1500px){
-    .landing_img{
-        height:600px;
-        margin-top:0px;
-        margin-left:650px;
-        width:550px;
-    }
-}
-/* LANDING PAGE LOGO CUSTOMIZATION END*/
-/* LANDING PAGE H1 CUSTOMIZATION*/
-h1{
-    color:rgb(15, 15, 15);
-    margin-top:80px;
-    font-family: 'Dancing Script', cursive, Courier, monospace;
-    font-size:50px;
-    margin-left:70px;
-}
-h1:hover{
-    text-shadow: 1px 1px 2px white, 0 0 1em pink, 0 0 0.2em white;
-
-}
-@media (min-width:800px){
-    h1{
-        color:rgb(15, 15, 15);
-        margin-top:170px;
-        font-family: 'Dancing Script', cursive, Courier, monospace;
-        font-size:70px;
-        margin-left:210px;
-    }
-}
-@media (min-width:1200px){
-    h1{
-        color:rgb(15, 15, 15);
-        margin-top:10px;
-        font-family: 'Dancing Script', cursive, Courier, monospace;
-        font-size:50px;
-        margin-left:550px;
-    }
-}
-@media (min-width:1500px){
-    h1{
-        color:rgb(15, 15, 15);
-        margin-top:140px;
-        font-family: 'Dancing Script', cursive, Courier, monospace;
-        font-size:50px;
-        margin-left:820px;
-    }
-}
-/* LANDING PAGE H1 CUSTOMIZATION END*/
-/* LANDING PAGE H2 CUSTOMIZATION*/
-h2{
-    color:rgb(15, 15, 15);
-    margin-top:-50px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size:25px;
-    margin-left:120px;
-    text-decoration:underline;
-}
-@media (min-width:800px){
-    h2{
-        color:rgb(15, 15, 15);
-        margin-top:-80px;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size:35px;
-        margin-left:300px;
-    }
-}
-@media (min-width:1200px){
-    h2{
-        color:rgb(15, 15, 15);
-        margin-top:-50px;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size:25px;
-        margin-left:620px;
-    }
-}
-@media (min-width:1500px){
-    h2{
-        color:rgb(15, 15, 15);
-        margin-top:-50px;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size:25px;
-        margin-left:890px;
-    }
-}
-/* LANDING PAGE H2 CUSTOMIZATION*/
-h3{
-    color:rgb(15, 15, 15);
-    margin-top:-20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size:15px;
-    margin-left:110px;
-}
-h4{
-    color:pink;
-    margin-top:90px;
 }
